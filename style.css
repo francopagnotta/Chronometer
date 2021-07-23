@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+/* VARIABLES */
+:root {
+	--ff-numbers: 'Roboto Mono', monospace;
+	--background-color: #fedee8;
+
+
+}
+
+
+
+/* BODY */
+body {
+	font-family: var(--ff-numbers);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: var(--background-color);
+}
+
+
+
+/* CHRONO CONTAINER */
+.chronometer-container {
+	background: #edf2fb;
+	width: 15.9375rem;
+	height: 31.625rem;
+	border-radius: 2.1875rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	box-shadow: 0px 0px 15px #adb5bd;
+	border-radius: 50px;
+	border: 1px solid #b69121;
+}
+
+
+
+/* TITLE CONTAINER*/
+.title-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	width: 7.5rem;
+	height: 1.875rem;
+	background: #edf2fb;
+	box-shadow: inset 5px 5px 5px #dce1e9,inset -5px -5px 5px #feffff;
+}
+
+/* title */
+.title {
+	font-size: .625rem;
+	letter-spacing: 1px;
+}
+
+/* STOPWATCH CONTAINER */
+.stopwatch-container {
+	width:11.25rem;
+	height: 11.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: linear-gradient(145deg, #feffff, #d5dae2);
+	box-shadow:  10px 10px 19px #c2c6ce,-10px -10px 19px #ffffff;
+}
+
+/* intern */
+.stopwatch-container__intern {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:10.625rem;
+	height: 10.625rem;
+	border-radius: 50%;
+	background: #edf2fb;
+	box-shadow: inset 14px 14px 28px #d1d5dd,inset -14px -14px 28px #ffffff;
+}
+
+/* values */
+.stopwatch-container__values {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #7a7a7a;
+	width: 8.75rem;
+	height: 8.75rem;
+	border: 1px solid #b69121;
+	border-radius: 50%;
+}
+
+
+/* BUTTONS CONTAINER */
+.btns-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+}
+
+/* play btn */
+.btn-playPause {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 3.75rem;
+	height: 3.75rem;
+	border-radius: 50%;
+	background: linear-gradient(145deg, #feffff, #d5dae2);
+	box-shadow: 5px 5px 8px #c2c6ce,-5px -5px 8px #ffffff;
+	border: none;
+}
+
+.btn-playPause:active {
+	border-radius: 50%;
+	background: #edf2fb;
+	box-shadow: inset 5px 5px 8px #c7cbd3,inset -5px -5px 8px #ffffff;
+}
+
+.btn-playPause i {
+	color: #adb5bd;
+	font-size: 1.0625rem;
+}
+
+/* pause btn */
+.btn-restart {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 3.75rem;
+	height: 3.75rem;
+	border-radius: 50%;
+	background: linear-gradient(145deg, #feffff, #d5dae2);
+	box-shadow: 5px 5px 8px #c2c6ce,-5px -5px 8px #ffffff;
+	border: none;
+}
+
+.btn-restart:active {
+	border-radius: 50%;
+	background: #edf2fb;
+	box-shadow: inset 5px 5px 10px #afb3ba,inset -5px -5px 10px #ffffff;
+}
+
+.btn-restart i  {
+	color: #adb5bd;
+	font-size: 1.1875rem;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Chronometer</title>
+</head>
+<body>
+	<div class="chronometer-container">
+		<div class="title-container">
+			<h1 class="title"></h1>
+		</div>
+		<div class="stopwatch-container">
+			<div class="stopwatch-container__intern">
+				<div class="stopwatch-container__values">
+					00:00:00
+				</div>
+			</div>
+		</div>
+		<div class="btns-container">
+			<button class="btn-playPause" onclick="startStop()">
+				<i class="fas fa-play" id="btn-icon"></i>
+			</button>
+			<button class="btn-restart" onclick="reset()">
+				<i class="fas fa-sync-alt"></i>
+			</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
