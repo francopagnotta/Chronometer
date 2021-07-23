@@ -71,7 +71,7 @@ function startStop() {
 		
 		// title change
 			document.querySelector('.title').innerHTML = 'PLAY';
-			document.querySelector('.title').style.color = '#7bf1a8'
+			document.querySelector('.title').style.color = '#02DA17'
 	} 
 	
 	else {
